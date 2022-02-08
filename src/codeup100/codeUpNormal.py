@@ -73,6 +73,16 @@ def codeUp84():
     res = round(h * b * c * s /8/1024/1024,1)
     print(str(res)+" MB")
 
+def codeUp85():
+    #print("값을 입력받습니다")
+    n = int(input())
+    cnt = 0
+    res = 0
+    while res < n:
+        res = res + cnt
+        cnt += 1
+    print(res)
+
 
 
 
