@@ -4,4 +4,4 @@ import codeUpNormal
 
 #codeUpBasic.codeUp74()
 
-codeUpNormal.codeUp77()
+codeUpNormal.codeUp84()

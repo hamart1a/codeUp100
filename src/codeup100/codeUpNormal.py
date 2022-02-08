@@ -53,7 +53,27 @@ def codeUp82():
         result += cnt+ " "
     return print(result)
 
-codeUp82()
+def codeUp83():
+    print("값을 입력받습니다")
+    # rgb = input()
+    # r,g,b = rgb.split(" ")
+    r,g,b = map(int, input().split())
+    cnt = 0
+    
+    for i in range(0,int(r)):
+        for j in range(0,int(g)):
+            for k in range(0,int(b)):
+                print(i,j,k);
+                cnt = cnt + 1
+    print(cnt)
+
+def codeUp84():
+    #print("값을 입력받습니다")
+    h,b,c,s = map(int, input().split())
+    res = round(h * b * c * s /8/1024/1024,1)
+    print(str(res)+" MB")
+
+
 
 
 
