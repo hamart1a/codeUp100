@@ -83,6 +83,21 @@ def codeUp85():
         cnt += 1
     print(res)
 
+def codeUp86():
+    n = int(input())
+    for i in range(0,n+1):
+        if(i%3 != 0):
+            print(i, end= ' ')
+
+def codeUp90():
+    a,m,d,n = map(int,input().split())
+    cnt = 1
+    res = a
+    while n > cnt:
+        res = res*m+d
+        cnt += 1
+    print(res)
+
 
 
 
