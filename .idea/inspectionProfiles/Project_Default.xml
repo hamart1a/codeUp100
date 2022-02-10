@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="str.__pos__" />
+          <option value="list.length" />
         </list>
       </option>
     </inspection_tool>
